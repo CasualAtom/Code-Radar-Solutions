@@ -5,7 +5,7 @@ int main() {
 
     for (i = 1; i <= n; i++) { // Loop for rows
         for (space = 1; space <= n - i; space++) { // Print spaces before stars
-            printf("=");
+            printf(" ");
         }
         for (j = 1; j <= 2 * i - 1; j++) { // Print stars
             printf("*");
