@@ -9,7 +9,7 @@ int fibonacci(int n){
 }
 int main(){
     int n,i,s;
-    scanf("%d ",&n);
+    scanf("%d %d",&s,&n);
     for(i=s;i<=n;i++){
         int res = fibonacci(i);
         printf("%d ", res);
